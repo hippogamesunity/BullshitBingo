@@ -1,0 +1,4 @@
+iphone 3.5 640x960
+ipad 2 768x1024
+iphone 5 640x1136
+iphone 6 1242x2208
