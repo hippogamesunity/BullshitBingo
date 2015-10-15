@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Common;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Interface
 {
@@ -9,6 +8,11 @@ namespace Assets.Scripts.Interface
         public GameObject En;
         public GameObject HelpButton;
         public GameObject ContinueButton;
+
+        public void Start()
+        {
+            Refresh();
+        }
 
         public void Initialize(bool restore)
         {

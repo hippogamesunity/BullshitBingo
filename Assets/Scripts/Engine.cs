@@ -8,6 +8,8 @@ namespace Assets.Scripts
 {
     public class Engine : SingleScript<Engine>
     {
+        public UIWidget Container;
+
         public void Awake()
         {
             DetectLanguage();
@@ -16,6 +18,8 @@ namespace Assets.Scripts
         public void Start()
         {
             UI.Navigator.OpenMenu();
+            Container.alpha = 0;
+            TweenAlpha.Begin(Container.gameObject, 1, 1);
         }
 
         private static void DetectLanguage()

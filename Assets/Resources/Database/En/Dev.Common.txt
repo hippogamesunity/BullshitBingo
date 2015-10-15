@@ -1,0 +1,58 @@
+﻿.Net
+Abstract
+Abstract Factory
+Agile
+AJAX
+Architecture
+Back-end
+C#
+C++
+Client
+Component
+Configuration
+Credentials
+Critical
+Debug
+Deploy
+Doesn't work
+Encapsulation
+Error
+Flexible
+Framework
+Front-end
+Install
+Integration
+Iteration
+Java
+Legacy
+Localization
+Microsoft
+Migration
+Module
+Network
+New version
+Non trivial
+Offline
+Outsourcing
+Pattern
+Performance
+Platform
+Priority
+Project
+Python
+Refactoring
+Replication
+Requirements
+Ruby
+Sandbox
+Script
+Scrum
+Secure
+Singleton
+Testing
+Tools
+Unit test
+Uptime
+VPN
+Vulnerability
+Workflow

@@ -19,6 +19,11 @@ namespace Assets.Scripts
             UpdateMuteButton();
         }
 
+        public void PlayPress()
+        {
+            PlayEffect("Press");
+        }
+
         public void PlayBullshit()
         {
             PlayEffect("Bullshit");
