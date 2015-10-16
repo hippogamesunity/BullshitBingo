@@ -10,7 +10,11 @@ namespace Assets.Scripts.Interface
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (UI.Game.Opened || UI.Help.Opened)
+                if (UI.RateUs.Opened)
+                {
+                    CloseRateUs();
+                }
+                else if (UI.Game.Opened || UI.Help.Opened)
                 {
                     OpenMenu();
                 }
@@ -64,6 +68,16 @@ namespace Assets.Scripts.Interface
         {
             UI.Help.Close();
             UI.Menu.Open();
+        }
+
+        public void OpenRateUs()
+        {
+            UI.RateUs.Open();
+        }
+
+        public void CloseRateUs()
+        {
+            UI.RateUs.Close();
         }
     }
 }

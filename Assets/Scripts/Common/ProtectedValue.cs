@@ -1,5 +1,4 @@
 ﻿using System;
-using SimpleJSON;
 
 namespace Assets.Scripts.Common
 {
@@ -86,20 +85,6 @@ namespace Assets.Scripts.Common
         public DateTime DateTime
         {
             get { return new DateTime(long.Parse(B64R.Decode(_protected))); }
-        }
-
-        #endregion
-
-        #region JSON
-
-        public JSONData ToJson()
-        {
-            return new JSONData(_protected);
-        }
-
-        public static ProtectedValue FromJson(JSONNode json)
-        {
-            return new ProtectedValue(json.Value);
         }
 
         #endregion

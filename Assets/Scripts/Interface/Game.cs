@@ -81,6 +81,13 @@ namespace Assets.Scripts.Interface
         {
             AudioPlayer.Instance.StopPlaying();
             AudioPlayer.Instance.PlayBullshit();
+
+            const string rateUsKey = "RateUs";
+
+            if (!PlayerPrefs.HasKey(rateUsKey))
+            {
+                TaskScheduler.CreateTask(() => { UI.RateUs.Open(); PlayerPrefs.SetInt(rateUsKey, 1); PlayerPrefs.Save(); }, 4);
+            }
         }
 
         private bool CheckBullshit(out List<BullshitButton> buttons)

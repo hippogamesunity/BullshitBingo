@@ -1,4 +1,1 @@
-iphone 3.5 640x960
-ipad 2 768x1024
-iphone 5 640x1136
-iphone 6 1242x2208
+https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Appendices/Properties.html#//apple_ref/doc/uid/TP40011225-CH26-SW2

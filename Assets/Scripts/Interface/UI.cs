@@ -6,5 +6,6 @@
         public static Menu Menu = Menu.Instance;
         public static Game Game = Game.Instance;
         public static Help Help = Help.Instance;
+        public static RateUs RateUs = RateUs.Instance;
     }
 }
